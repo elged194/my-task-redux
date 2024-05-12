@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+header{
+  background-color: #8BC34A;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+nav{
+  width: 100%;
+}
+main{
+  width: 100%;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul li{
+  list-style: none;
+}
+form{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+input , select , button{
+  padding: 10px ;
+  margin-bottom: 10px;
+}
+form > div{
+  display: flex;
+  flex-direction: column;
+}
